@@ -1,0 +1,39 @@
+# Исключаем временные файлы и кэш Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+
+# Исключаем файлы настройки редактора
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.booproj
+*.userprefs
+
+# Исключаем лог-файлы и журналы сборки
+[sysinfo.txt](sysinfo.txt)
+*.[pidb.meta](pidb.meta)
+*.pdb
+*.mdb
+*.opendb
+*.svd
+*.[exe.log](exe.log)
+
+# Исключаем бинарные файлы и ресурсы
+Assets/StreamingAssets/*
+
+# Если используются ассет-паки, можно добавить:
+Assets/AssetStoreTools*
+
+# Лог-файл юнити, который постоянно обновляется
+[UnityEditor.log](UnityEditor.log)
+
+# Исключение личных настроек Unity (если вы хотите сохранить свои настройки локально)
+ProjectSettings/*
+
+# Дополнительные исключения, специфичные для вашей среды разработки
+.DS_Store
+[Thumbs.db](Thumbs.db)

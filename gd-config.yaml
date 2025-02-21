@@ -1,0 +1,35 @@
+
+
+
+gravity: -10
+friction: 0
+startForce: 10, 0
+
+objects:
+    - x: 10
+      y: 10
+      size: 1
+      type: block
+    - x: 10
+      y: 10
+      size: 1
+      type: block
+    - x: 1000
+      y: 0
+      type: theEnd
+
+groundBlocks: 
+    - x: 20
+      y: 0
+      type: ground
+    - x: 30
+      y: 0
+      type: ground
+    - x: 40
+      y: 0
+      type: ground
+
+on space:
+    force: 0, 30
+
+
