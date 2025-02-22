@@ -918,7 +918,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a881efb984154b4d811dbc57e366c48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  path: C:/@csharp/GD-clone/Assembly-CSharp-Editor.csproj
+  levelFolder: "\u041A\u0443\u043A\u0443, \u0442\u0443\u0442 \u0434\u0438\u0440\u0435\u043A\u0442\u043E\u0440\u0438\u044F
+    \u0434\u043E\u043B\u0436\u043D\u0430 \u0431\u044B\u0442\u044C"
 --- !u!4 &940727251
 Transform:
   m_ObjectHideFlags: 0
@@ -2170,6 +2171,7 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 940727251}
   - {fileID: 1021133153049516614}
   - {fileID: 8882126008186572457}
   - {fileID: 40629386}
@@ -2202,4 +2204,3 @@ SceneRoots:
   - {fileID: 830892048}
   - {fileID: 464422470}
   - {fileID: 673520655}
-  - {fileID: 940727251}
