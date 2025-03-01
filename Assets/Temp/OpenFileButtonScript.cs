@@ -1,4 +1,4 @@
-#if UNITY_EDITOR
+﻿#if UNITY_EDITOR
 
 
 using UnityEditor;
@@ -16,8 +16,8 @@ namespace Temp
         {
             levelFolder = (
                 EditorUtility.OpenFolderPanel(
-                    "Select level folder", 
-                    "", 
+                    "Select level folder",
+                    "",
                     "Levels"
                 )
             );

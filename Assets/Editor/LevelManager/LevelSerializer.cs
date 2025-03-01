@@ -8,6 +8,8 @@ public class LevelSerializer : MonoBehaviour
     public static string SerializeLevel(Scene scene)
     {
         string levelString = "";
+
+
         ObjectSerializer objectSerializer = new ObjectSerializer();
         foreach (var gameObject in scene.GetRootGameObjects())
         {
