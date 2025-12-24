@@ -21,6 +21,7 @@
 *.opendb
 *.svd
 *.[exe.log](exe.log)
+/Logs/
 
 # Исключаем бинарные файлы и ресурсы
 /Assets/StreamingAssets/*
@@ -30,7 +31,6 @@
 
 # Лог-файл юнити, который постоянно обновляется
 [UnityEditor.log](UnityEditor.log)
-.Logs/
 
 # Исключение личных настроек Unity (если вы хотите сохранить свои настройки локально)
 /ProjectSettings/*
