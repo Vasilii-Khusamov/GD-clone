@@ -42,6 +42,7 @@ public class PortalWinner : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            AttemptCounter.instance.Reset();
             _isWinning = true;
             _hero = other.gameObject;
             other.GetComponent<DisableHero>().Disable();

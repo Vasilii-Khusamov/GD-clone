@@ -19,7 +19,7 @@ public class Killer : MonoBehaviour
 				CollisionGroundCounter innerHitbox = Array.Find(children, child => child.name == "Inner hitbox");
 				if (innerHitbox is null)
 				{
-					Debug.Log("Β δξχεπνεμ ξαϊεκςε νε νΰιδεν κξμοξνενς CollisionGroundCounter");
+					Debug.Log("      CollisionGroundCounter");
 				}
 				return innerHitbox;
 			}
