@@ -6,7 +6,7 @@ public class ImpulseMover : MonoBehaviour
 	public float force;
 	public Rigidbody2D rb;
 
-	private Lazy<CollisionGroundCounter> _lazyCollisionGroundCounter;
+	private CollisionGroundCounter _collisionGroundCounter;
 
 	private void Start()
 	{
@@ -15,13 +15,13 @@ public class ImpulseMover : MonoBehaviour
 			Debug.Log("Внимание, параметр force нужно задать значением, отличное от нуля.");
 		}
 
-		_lazyCollisionGroundCounter = new Lazy<CollisionGroundCounter>(() => gameObject.GetComponent<CollisionGroundCounter>());
+		_collisionGroundCounter = gameObject.GetComponent<CollisionGroundCounter>();
 	}
 
 	// Update is called once per frame
 	private void Update()
 	{
-		if (Input.GetKey(KeyCode.Space) && (_lazyCollisionGroundCounter is null || _lazyCollisionGroundCounter.Value.isGrounded))
+		if (Input.GetKey(KeyCode.Space) && (_collisionGroundCounter is null || _collisionGroundCounter.isGrounded))
 		{
 			Vector3 upVector = -(Physics2D.gravity * rb.gravityScale).normalized;
 			rb.linearVelocity = upVector * force;

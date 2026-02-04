@@ -1,29 +1,32 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class AutoRestarter : MonoBehaviour
 {
-    public float restartDelay;
-
-    private float _restartTimer = 0;
-    private Lazy<GameObject> _hero;
-
-    private void Start()
+    [SerializeField] private float restartDelay;
+    [SerializeField] private GameObject player;
+    private Restarter restarter;
+    private Killer killer;
+    void Start()
     {
-        _hero = new Lazy<GameObject>(() => GameObject.Find("Hero"));
+        killer = player.GetComponent<Killer>();
+        restarter = GetComponent<Restarter>();
+        killer.OnPlayerDeath += Restart;
     }
-
-    void Update()
+    void Restart()
     {
-        if (_restartTimer >= restartDelay)
-        {
-            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-            SceneManager.LoadScene(currentSceneIndex);
-        }
-        if (_hero.Value == null && _restartTimer < restartDelay)
-        {
-            _restartTimer += Time.deltaTime;
-        }
+        StartCoroutine("Wait");
+    }
+    IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(restartDelay);
+        restarter.Restart();
+        yield return null;
+    }
+    void OnDisable()
+    {
+        if (killer is not null) killer.OnPlayerDeath -= Restart;
     }
 }

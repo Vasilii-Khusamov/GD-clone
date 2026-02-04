@@ -1,35 +1,25 @@
 using System;
 using System.Reflection;
 using System.Runtime.CompilerServices;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Killer : MonoBehaviour
 {
 	public GameObject deathEffectPrefab;
+	public event Action OnPlayerDeath;
 
-
-	private Lazy<CollisionGroundCounter> _lazyCollisionGroundCounter;
+	private CollisionGroundCounter _collisionGroundCounter;
 	// Start is called once before the first execution of Update after the MonoBehaviour is created
 	void Start()
 	{
-		_lazyCollisionGroundCounter = new Lazy<CollisionGroundCounter>(
-			() =>
-			{
-				CollisionGroundCounter[] children = gameObject.GetComponentsInChildren<CollisionGroundCounter>();
-				CollisionGroundCounter innerHitbox = Array.Find(children, child => child.name == "Inner hitbox");
-				if (innerHitbox is null)
-				{
-					Debug.Log("˜ ˜˜˜˜˜˜˜˜ ˜˜˜˜˜˜˜ ˜˜ ˜˜˜˜˜˜ ˜˜˜˜˜˜˜˜˜ CollisionGroundCounter");
-				}
-				return innerHitbox;
-			}
-		);
+		_collisionGroundCounter = gameObject.GetComponentsInChildren<CollisionGroundCounter>()[1];	
 	}
 
 	// Update is called once per frame
 	void Update()
 	{
-		if (_lazyCollisionGroundCounter.Value.isGrounded)
+		if (_collisionGroundCounter.isGrounded)
 		{
 			KillHero();
 		}
@@ -38,14 +28,15 @@ public class Killer : MonoBehaviour
 	private void OnCollisionEnter2D(Collision2D collision)
 	{
 		if (collision.gameObject.CompareTag("Deadly"))
-		{ 
+		{
 			KillHero();
 		}
 	}
 
 	private void KillHero() 
 	{
+		OnPlayerDeath?.Invoke();
 		Instantiate(deathEffectPrefab, transform.position, new Quaternion());
-		Destroy(this.gameObject);
+		Destroy(gameObject);
 	}
 }

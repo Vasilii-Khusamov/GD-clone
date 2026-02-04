@@ -10,6 +10,7 @@ public class PortalWinner : MonoBehaviour
     public AnimationCurve speedOverTime;
     public GameObject winEffect;
     
+    public event Action OnWin;
     private bool _isWinning = false;
     private GameObject _hero;
     private Vector3 _winPosition;
@@ -20,6 +21,7 @@ public class PortalWinner : MonoBehaviour
         if (_isWinning && _winTimer >= animationLength && _hero is not null)
         {
             _isWinning = false;
+            OnWin.Invoke();
             Instantiate(winEffect, gameObject.transform.position, new Quaternion());
             Destroy(_hero);
         }

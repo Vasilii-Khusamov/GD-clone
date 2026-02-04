@@ -6,7 +6,7 @@ public class ImpulseRotator : MonoBehaviour
 	public float rotationForce;
 	public Rigidbody2D rb;
 
-	private Lazy<CollisionGroundCounter> _lazyCollisionGroundCounter;
+	private CollisionGroundCounter _collisionGroundCounter;
 
 	private void Start()
 	{
@@ -15,12 +15,12 @@ public class ImpulseRotator : MonoBehaviour
 			Debug.Log("��������, �������� rotationForce ����� ������ ���������, �������� �� ����.");
 		}
 
-		_lazyCollisionGroundCounter = new Lazy<CollisionGroundCounter>(() => gameObject.GetComponent<CollisionGroundCounter>());
+		_collisionGroundCounter = gameObject.GetComponent<CollisionGroundCounter>();
 	}
 	// Update is called once per frame
 	void Update()
 	{
-		if (Input.GetKey(KeyCode.Space) && (_lazyCollisionGroundCounter is null || _lazyCollisionGroundCounter.Value.isGrounded))
+		if (Input.GetKey(KeyCode.Space) && (_collisionGroundCounter is null || _collisionGroundCounter.isGrounded))
 		{
 			rb.angularVelocity = -rotationForce * Math.Sign(rb.gravityScale);
 		}
