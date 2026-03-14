@@ -8317,6 +8317,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerKit
       objectReference: {fileID: 0}
+    - target: {fileID: 7531868078835350309, guid: 6c50e9c928965544c913b6d1ba29c48d, type: 3}
+      propertyPath: m_Constraints
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7604039906528269036, guid: 6c50e9c928965544c913b6d1ba29c48d, type: 3}
       propertyPath: endPortal
       value: 

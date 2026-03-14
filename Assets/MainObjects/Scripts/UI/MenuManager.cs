@@ -38,5 +38,6 @@ public class MenuManager : MonoBehaviour
         _isPaused = isPause;
         _menu.SetActive(isPause);
         Time.timeScale = isPause ? 0 : 1;
+        MusicManager.instance.SetPause(!isPause);
     }
 }

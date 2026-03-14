@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: FirstLevel
   m_EditorClassIdentifier: 
   levelName: FirstLevel
+  music: {fileID: 8300000, guid: 6de326d955e0a0541822a80d87e0422e, type: 3}
