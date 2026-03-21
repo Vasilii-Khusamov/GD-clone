@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Projects\\GD-clone\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BDE8B011-8D61-97EF-8A95-9F83328338AE}|Assembly-CSharp.csproj|c:\\projects\\gd-clone\\assets\\mainobjects\\scripts\\audio\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDE8B011-8D61-97EF-8A95-9F83328338AE}|Assembly-CSharp.csproj|solutionrelative:assets\\mainobjects\\scripts\\audio\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDE8B011-8D61-97EF-8A95-9F83328338AE}|Assembly-CSharp.csproj|C:\\Projects\\GD-clone\\assets\\gameplayobjects\\orbs\\yelloworb\\jumporbbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDE8B011-8D61-97EF-8A95-9F83328338AE}|Assembly-CSharp.csproj|solutionrelative:assets\\gameplayobjects\\orbs\\yelloworb\\jumporbbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDE8B011-8D61-97EF-8A95-9F83328338AE}|Assembly-CSharp.csproj|c:\\projects\\gd-clone\\assets\\mainobjects\\scripts\\ui\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDE8B011-8D61-97EF-8A95-9F83328338AE}|Assembly-CSharp.csproj|solutionrelative:assets\\mainobjects\\scripts\\ui\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDE8B011-8D61-97EF-8A95-9F83328338AE}|Assembly-CSharp.csproj|C:\\Projects\\GD-clone\\assets\\gameplayobjects\\orbs\\cyanorb\\gravityorbbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDE8B011-8D61-97EF-8A95-9F83328338AE}|Assembly-CSharp.csproj|solutionrelative:assets\\gameplayobjects\\orbs\\cyanorb\\gravityorbbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDE8B011-8D61-97EF-8A95-9F83328338AE}|Assembly-CSharp.csproj|C:\\Projects\\GD-clone\\assets\\mainobjects\\scripts\\audio\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDE8B011-8D61-97EF-8A95-9F83328338AE}|Assembly-CSharp.csproj|solutionrelative:assets\\mainobjects\\scripts\\audio\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDE8B011-8D61-97EF-8A95-9F83328338AE}|Assembly-CSharp.csproj|c:\\projects\\gd-clone\\assets\\gameplayobjects\\orbs\\orbbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDE8B011-8D61-97EF-8A95-9F83328338AE}|Assembly-CSharp.csproj|solutionrelative:assets\\gameplayobjects\\orbs\\orbbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SoundManager.cs",
-              "DocumentMoniker": "C:\\Projects\\GD-clone\\Assets\\MainObjects\\Scripts\\Audio\\SoundManager.cs",
-              "RelativeDocumentMoniker": "Assets\\MainObjects\\Scripts\\Audio\\SoundManager.cs",
-              "ToolTip": "C:\\Projects\\GD-clone\\Assets\\MainObjects\\Scripts\\Audio\\SoundManager.cs",
-              "RelativeToolTip": "Assets\\MainObjects\\Scripts\\Audio\\SoundManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "GravityOrbBehaviour.cs",
+              "DocumentMoniker": "C:\\Projects\\GD-clone\\Assets\\GameplayObjects\\Orbs\\CyanOrb\\GravityOrbBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\GameplayObjects\\Orbs\\CyanOrb\\GravityOrbBehaviour.cs",
+              "ToolTip": "C:\\Projects\\GD-clone\\Assets\\GameplayObjects\\Orbs\\CyanOrb\\GravityOrbBehaviour.cs",
+              "RelativeToolTip": "Assets\\GameplayObjects\\Orbs\\CyanOrb\\GravityOrbBehaviour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T16:03:11.014Z",
+              "WhenOpened": "2026-03-18T16:09:36.183Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MenuManager.cs",
-              "DocumentMoniker": "C:\\Projects\\GD-clone\\Assets\\MainObjects\\Scripts\\UI\\MenuManager.cs",
-              "RelativeDocumentMoniker": "Assets\\MainObjects\\Scripts\\UI\\MenuManager.cs",
-              "ToolTip": "C:\\Projects\\GD-clone\\Assets\\MainObjects\\Scripts\\UI\\MenuManager.cs",
-              "RelativeToolTip": "Assets\\MainObjects\\Scripts\\UI\\MenuManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAmAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "JumpOrbBehaviour.cs",
+              "DocumentMoniker": "C:\\Projects\\GD-clone\\Assets\\GameplayObjects\\Orbs\\YellowOrb\\JumpOrbBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\GameplayObjects\\Orbs\\YellowOrb\\JumpOrbBehaviour.cs",
+              "ToolTip": "C:\\Projects\\GD-clone\\Assets\\GameplayObjects\\Orbs\\YellowOrb\\JumpOrbBehaviour.cs",
+              "RelativeToolTip": "Assets\\GameplayObjects\\Orbs\\YellowOrb\\JumpOrbBehaviour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T16:03:04.021Z",
+              "WhenOpened": "2026-03-18T16:09:36.184Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MusicManager.cs",
-              "DocumentMoniker": "C:\\Projects\\GD-clone\\Assets\\MainObjects\\Scripts\\Audio\\MusicManager.cs",
-              "RelativeDocumentMoniker": "Assets\\MainObjects\\Scripts\\Audio\\MusicManager.cs",
-              "ToolTip": "C:\\Projects\\GD-clone\\Assets\\MainObjects\\Scripts\\Audio\\MusicManager.cs",
-              "RelativeToolTip": "Assets\\MainObjects\\Scripts\\Audio\\MusicManager.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCgAAAAgAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
-              "WhenOpened": "2026-03-11T16:03:04.028Z"
+              "Title": "OrbBehaviour.cs",
+              "DocumentMoniker": "C:\\Projects\\GD-clone\\Assets\\GameplayObjects\\Orbs\\OrbBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\GameplayObjects\\Orbs\\OrbBehaviour.cs",
+              "ToolTip": "C:\\Projects\\GD-clone\\Assets\\GameplayObjects\\Orbs\\OrbBehaviour.cs",
+              "RelativeToolTip": "Assets\\GameplayObjects\\Orbs\\OrbBehaviour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T16:09:36.193Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7067474701507976946}
   - component: {fileID: 234790142237649335}
   m_Layer: 0
-  m_Name: YellowOrb
+  m_Name: CyanOrb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60,7 +60,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0964b60cd6864cb4aafd3c74b95a81ed, type: 2}
+  - {fileID: 2100000, guid: ff2b14da38f3dd34288bf431e0dc07a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4839,7 +4839,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0964b60cd6864cb4aafd3c74b95a81ed, type: 2}
+  - {fileID: 2100000, guid: ff2b14da38f3dd34288bf431e0dc07a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4950,7 +4950,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2867983791784f488e1bc0c8b82b1fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 17
 --- !u!114 &234790142237649335
 MonoBehaviour:
   m_ObjectHideFlags: 0

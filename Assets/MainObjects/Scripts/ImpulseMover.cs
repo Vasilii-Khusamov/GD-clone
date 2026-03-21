@@ -21,7 +21,7 @@ public class ImpulseMover : MonoBehaviour
 	// Update is called once per frame
 	private void Update()
 	{
-		if (Input.GetKey(KeyCode.Space) && (_collisionGroundCounter is null || _collisionGroundCounter.isGrounded))
+		if (Input.GetButton("Jump") && (_collisionGroundCounter is null || _collisionGroundCounter.isGrounded))
 		{
 			Vector3 upVector = -(Physics2D.gravity * rb.gravityScale).normalized;
 			rb.linearVelocity = upVector * force;
