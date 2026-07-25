@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 2696173305448576244}
   - component: {fileID: 9107046334801659241}
   - component: {fileID: 9146745772617760145}
-  - component: {fileID: 7067474701507976946}
   - component: {fileID: 234790142237649335}
   m_Layer: 0
   m_Name: YellowOrb
@@ -4938,19 +4937,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &7067474701507976946
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 734969799542867306}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2867983791784f488e1bc0c8b82b1fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpForce: 17
 --- !u!114 &234790142237649335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4963,4 +4949,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1670e3a8ed93c5941a7e9d582ae7f2dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 17
+  jumpForce: 20

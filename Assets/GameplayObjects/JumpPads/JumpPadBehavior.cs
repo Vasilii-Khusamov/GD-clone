@@ -12,6 +12,5 @@ public class JumpPadBehavior : MonoBehaviour
         
         Vector3 upVector = -(Physics2D.gravity * otherRigidbody2D.gravityScale).normalized;
         otherRigidbody2D.linearVelocity = upVector * launchForce;
-        otherRigidbody2D.AddTorque(-angularForce * Math.Sign(otherRigidbody2D.gravityScale));
     }
 }

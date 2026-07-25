@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Projects\\GD-clone\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\GD-clone\\Assets\\MainObjects\\Scripts\\ImpulseMover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MainObjects\\Scripts\\ImpulseMover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDE8B011-8D61-97EF-8A95-9F83328338AE}|Assembly-CSharp.csproj|c:\\projects\\gd-clone\\assets\\mainobjects\\scripts\\shipbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDE8B011-8D61-97EF-8A95-9F83328338AE}|Assembly-CSharp.csproj|solutionrelative:assets\\mainobjects\\scripts\\shipbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDE8B011-8D61-97EF-8A95-9F83328338AE}|Assembly-CSharp.csproj|c:\\projects\\gd-clone\\assets\\gameplayobjects\\portals\\gamemodeswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDE8B011-8D61-97EF-8A95-9F83328338AE}|Assembly-CSharp.csproj|solutionrelative:assets\\gameplayobjects\\portals\\gamemodeswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 411,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameModeSwitcher.cs",
+              "DocumentMoniker": "C:\\Projects\\GD-clone\\Assets\\GameplayObjects\\Portals\\GameModeSwitcher.cs",
+              "RelativeDocumentMoniker": "Assets\\GameplayObjects\\Portals\\GameModeSwitcher.cs",
+              "ToolTip": "C:\\Projects\\GD-clone\\Assets\\GameplayObjects\\Portals\\GameModeSwitcher.cs",
+              "RelativeToolTip": "Assets\\GameplayObjects\\Portals\\GameModeSwitcher.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T15:47:12.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShipBehaviour.cs",
+              "DocumentMoniker": "C:\\Projects\\GD-clone\\Assets\\MainObjects\\Scripts\\ShipBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\MainObjects\\Scripts\\ShipBehaviour.cs",
+              "ToolTip": "C:\\Projects\\GD-clone\\Assets\\MainObjects\\Scripts\\ShipBehaviour.cs",
+              "RelativeToolTip": "Assets\\MainObjects\\Scripts\\ShipBehaviour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T15:46:52.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ImpulseMover.cs",
+              "DocumentMoniker": "C:\\Projects\\GD-clone\\Assets\\MainObjects\\Scripts\\ImpulseMover.cs",
+              "RelativeDocumentMoniker": "Assets\\MainObjects\\Scripts\\ImpulseMover.cs",
+              "ToolTip": "C:\\Projects\\GD-clone\\Assets\\MainObjects\\Scripts\\ImpulseMover.cs",
+              "RelativeToolTip": "Assets\\MainObjects\\Scripts\\ImpulseMover.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T15:46:26.17Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

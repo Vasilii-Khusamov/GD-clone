@@ -13,8 +13,7 @@ GameObject:
   - component: {fileID: 2696173305448576244}
   - component: {fileID: 9107046334801659241}
   - component: {fileID: 9146745772617760145}
-  - component: {fileID: 7067474701507976946}
-  - component: {fileID: 234790142237649335}
+  - component: {fileID: 3963940389617244535}
   m_Layer: 0
   m_Name: CyanOrb
   m_TagString: Untagged
@@ -32,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.41322312, y: 0.41322312, z: 0.41322312}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -4938,7 +4937,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &7067474701507976946
+--- !u!114 &3963940389617244535
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4947,19 +4946,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 734969799542867306}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2867983791784f488e1bc0c8b82b1fc, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a7a76d199405324eb7bc31a1f12bbd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &234790142237649335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 734969799542867306}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1670e3a8ed93c5941a7e9d582ae7f2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpForce: 17
+  jumpForce: 15

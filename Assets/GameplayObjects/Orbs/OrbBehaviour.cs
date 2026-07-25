@@ -4,14 +4,17 @@ using UnityEngine.Serialization;
 
 public abstract class OrbBehaviour : MonoBehaviour
 {
-    private bool _isAlowedToJump = true;
+    private bool _isAlowedToJump = false;
 
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetButtonDown("Jump"))
         {
             _isAlowedToJump = true;
+        } else if (Input.GetButtonUp("Jump"))
+        {
+            _isAlowedToJump = false;
         }
     }
 
@@ -20,7 +23,6 @@ public abstract class OrbBehaviour : MonoBehaviour
         if (Input.GetButton("Jump") && other.gameObject.CompareTag("Player") && _isAlowedToJump)
         {
             _isAlowedToJump = false;
-            //OnJumpOrbActivate?.Invoke(other);
             Jump(other);
         }
     }

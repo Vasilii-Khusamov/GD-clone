@@ -1528,6 +1528,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1816851644878592610, guid: 05f1b41ad38a6fe439048c14f13eca44, type: 3}
+      propertyPath: _level
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f2b229ec0222044daf132bcdf5aa3e5, type: 2}
+    - target: {fileID: 1816851644878592610, guid: 05f1b41ad38a6fe439048c14f13eca44, type: 3}
       propertyPath: _levelName
       value: SecondLevel
       objectReference: {fileID: 0}
@@ -2609,6 +2613,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1816851644878592610, guid: 05f1b41ad38a6fe439048c14f13eca44, type: 3}
+      propertyPath: _level
+      value: 
+      objectReference: {fileID: 11400000, guid: 870df616112e5844f991e913c98fe4ea, type: 2}
     - target: {fileID: 2254580781557840732, guid: 05f1b41ad38a6fe439048c14f13eca44, type: 3}
       propertyPath: m_Name
       value: LevelPage_03

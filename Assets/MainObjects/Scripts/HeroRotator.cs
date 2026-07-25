@@ -9,12 +9,12 @@ public class HeroRotator : MonoBehaviour
     [SerializeField] private float rotationSpeed = 360f;
     CollisionGroundCounter counter;
     Rigidbody2D rb;
-    SpriteRenderer[] sprites;
+    Transform sprite;
     void Start()
     {
         counter = GetComponent<CollisionGroundCounter>();
         rb = GetComponent<Rigidbody2D>();
-        sprites = GetComponentsInChildren<SpriteRenderer>();
+        sprite = GetComponentsInChildren<Transform>()[1];
     }
 
     // Update is called once per frame
@@ -35,9 +35,6 @@ public class HeroRotator : MonoBehaviour
     void SetRotation(float angle)
     {
         currentAngle = angle;
-        foreach (var s in sprites)
-        {
-            s.transform.rotation = Quaternion.Euler(0, 0, angle);
-        }
+        sprite.rotation = Quaternion.Euler(0, 0, angle);
     }
 }
